@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/*================================*/
+:root {
+  --bg-color: #8c11e48a;
+  --solid-color: #520a85a7;
+  --text-wcolor: #f4f1f1;
+}
+/*================================*/
+body {
+  --bg-color: #8c11e484;
+  --solid-color: #520a85a6;
+  --text-wcolor: #f4f1f1;
+  background-color: var(--bg-color);
+}
+
+body.salmon{
+  --bg-color: #fa80728e;
+  --solid-color: #FA8072;
+  --text-wcolor: #f4f1f1;
+  background-color: var(--bg-color);
+}
+body.green{
+  --bg-color: #87871f84;
+  --solid-color: #79791cff;
+  --text-wcolor: #f4f1f1;
+  background-color: var(--bg-color);
+}
+
+
+.container {
+  text-align: center;
+  margin: 5.87rem auto 0 auto;
+  width: 20.375rem;
+}
+/*================================*/
+.perfil {
+  width: 12.5rem;
+  height: 12.5rem;
+
+  border-radius: 50%;
+  border: solid 0.3rem var(--solid-color);
+  padding: 0.2rem;
+}
+
+.usuario {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1rem;
+
+  color: var(--text-wcolor);
+}
+
+/*================================*/
+ul {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+ul li {
+  width: 20.375rem;
+  margin-top: 1rem;
+}
+
+ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  color: var(--text-wcolor);
+
+  height: 3.0625rem;
+  border: solid 0.125rem var(--solid-color);
+  border-radius: 0.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background 500ms;
+}
+
+ul li a:hover {
+  background-color: var(--solid-color);
+}
+/*================================*/
+.icon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 94px;
+}
+img.icon2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 105px;
+}
+img.icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 111px;
+}
+/*================================*/
+footer a {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+
+  color: var(--text-wcolor);
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 1.1rem;
+ 
+}
+
